@@ -1,7 +1,13 @@
+html{
+  height: 100%;
+}
 body {
   background-image: url("my.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 .notification {
   font-family: 'Caveat', cursive;
