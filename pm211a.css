@@ -5,6 +5,7 @@ body {
   background-image: url("my.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: antiquewhite;
   margin: 0;
   padding: 0;
   overflow: hidden;
