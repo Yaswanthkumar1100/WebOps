@@ -1,0 +1,57 @@
+html{
+  height: 100%;
+}
+body {
+  background-image: url("me.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#theme-toggler-1 {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-color: #e9ebc7;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  transform: translateX(0);
+}
+
+#theme-toggler-2 {
+  position: relative;
+  width: 60px;
+  height: 30px;
+  color: rgb(167, 161, 161);
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  transform: translateX(0px);
+  background-color: #3a952c;
+}
+
+#theme-toggler {
+  transform: translateX(30px);
+}
+
+h1 {
+  font-family: 'Caveat', cursive;
+  color: rgb(245, 215, 160);
+  text-shadow: 2px 2px 4px rgba(218, 186, 44, 0.5);
+}
+
+.notification {
+  font-family: 'Caveat', cursive;
+  color: rgb(225, 139, 27);
+  border: 2px solid #706e6e;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(75, 75, 75, 0.3);
+  position: absolute;
+  top: 20%;
+  transform: translateY(50%);
+}

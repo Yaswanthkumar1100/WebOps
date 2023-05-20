@@ -1,0 +1,45 @@
+body {
+  background-image: url("my.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.notification {
+  font-family: 'Caveat', cursive;
+  border: 2px solid #333;
+  border-radius: 10px; 
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 20%; 
+  transform: translateY(50%);
+  }
+
+#theme-toggler-1 {
+  position: relative;
+  z-index: 1;
+  width: 60px;
+  height: 30px;
+  background-color: #3a952c;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  padding: 0px 0px 0px 0px;
+}
+
+#theme-toggler-2 {
+  position: relative; 
+  z-index: 2;
+  width: 30px;
+  height: 30px;
+  color: rgb(59, 50, 50);
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  transform: translateX(0px)
+
+}
+
+h1 {
+  font-family: 'Caveat', cursive;
+  color: rgb(94, 91, 88);
+}
